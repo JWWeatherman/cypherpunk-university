@@ -1,0 +1,75 @@
+$background-color: #27383e
+$orange: #fa7073
+$blue: #00B7FF
+$border-radius-8: 8px
+$border-radius-3: 3px
+$white-font: #ffffff
+$black-font: #000000
+
+body
+  background-color: $background-color!important
+  padding: 50px
+  font: 14px proxima-nova,proxima nova,open sans,sans-serif,system
+  color: $white-font!important
+
+a
+  color: $blue
+
+.section-header-text
+  font-family: proxima-nova,proxima nova,open sans,sans-serif,system
+  font-weight: 800
+  font-size: 40px
+  line-height: 50px
+  letter-spacing: -1px
+  word-spacing: 1px
+
+.text-center
+  text-align: center
+
+.section-subheader-text
+  font-size: 18px
+  font-weight: 300
+  line-height: 24px
+
+.flex
+  display: flex
+
+.flex-center
+  justify-content: center
+
+.flex-column
+  flex-direction: column
+
+.resources
+  padding: 0 23%
+  .card
+    padding: 0
+    margin: 5% 0
+    border: none
+    border-radius: $border-radius-8 $border-radius-8 $border-radius-3 $border-radius-3
+    box-shadow: 0 1px 1px rgba(0,0,0,.5)
+    .card-header
+      font-size: 20px
+      font-weight: 600
+      background-color: $orange
+      min-height: 3rem
+      position: relative
+      border-top-left-radius: $border-radius-8
+      border-top-right-radius: $border-radius-8
+    .card-body
+      color: $black-font
+      padding: 2rem
+    .card-footer
+      display: flex
+      align-items: flex-end
+      justify-content: space-between
+      .btn
+        background-color: $orange
+        border: none
+        box-shadow: 0 2px 0 #bd5e5b
+        font-size: 16px
+        font-weight: 700
+        padding: 12px 40px 10px
+        border-radius: $border-radius-8
+      .card-link
+        margin: 0 3rem

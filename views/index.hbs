@@ -1,0 +1,20 @@
+<div class="row resources flex flex-center">
+{{#each resources}}
+  <div class="card">
+    <div class="card-header text-center">
+      {{name}}
+    </div>
+    <div class="card-body">
+      <p>
+        {{body}}
+      </p>
+    </div>
+    <div class="card-footer">
+      <a href="#{{button.link}}" class="btn btn-primary">{{button.display}}</a>
+      {{#each links}}
+        <a href="#{{link}}" class="card-link align-baseline">{{display}}</a>
+      {{/each}}
+    </div>
+  </div>
+{{/each}}
+</div>
