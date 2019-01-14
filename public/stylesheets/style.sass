@@ -59,8 +59,7 @@ body
         box-shadow: 0 1px 1px rgba(0,0,0,.5)
         font-size: $default-font-size
         margin: 0 auto
-        width: 100%
-        max-width: 650px
+        width: 650px
         .card-header
           font-size: $resource-header-font-size
           font-weight: 600
@@ -107,3 +106,13 @@ body
 ::-webkit-scrollbar
   display: none
 
+@media (max-width: 991px)
+  .section-header-text
+    font-size: calc(#{$header-font-size} * 1.5)!important
+  .section-subheader-text, .card-body, .card-header, .btn
+    font-size: calc(#{$default-font-size} * 1.5)!important
+    line-height: calc(#{$line-height} * 1.5)!important
+  .link a
+    font-size: calc(#{$default-font-size} * 1.2)!important
+  .card
+    width: 100%!important
