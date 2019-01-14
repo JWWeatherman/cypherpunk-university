@@ -11,15 +11,17 @@
             {{body}}
           </p>
         </div>
-        <div class="card-footer row">
-          <div class="col-3"></div>
-          <div class="col-6 class-btn">
-            <a href="#{{button.link}}" class="btn btn-primary">{{button.display}}</a>
-          </div>
-          <div class="col-3 link">
-            {{#each links}}
-              <a href="#{{link}}" class="card-link align-baseline">{{display}}</a>
-            {{/each}}
+        <div class="card-footer">
+          <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 class-btn">
+              <a href="#{{button.link}}" class="btn btn-primary">{{button.display}}</a>
+            </div>
+            <div class="col-3 link">
+              {{#each links}}
+                <a href="#{{link}}" class="card-link align-baseline">{{display}}</a>
+              {{/each}}
+            </div>
           </div>
         </div>
       </div>
