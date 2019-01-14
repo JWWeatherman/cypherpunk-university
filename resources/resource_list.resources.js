@@ -1,11 +1,9 @@
-const faker = require('faker')
-
 class Link {
   /**
    * @param display {string}
    * @param link {string}
    */
-  constructor (display, link) {
+  constructor ({display, link} = {display: 'READ', link: '#'}) {
     this.display = display
     this.link = link
   }
@@ -26,23 +24,12 @@ class Resource {
   }
 }
 
-function randomNum (upTo) {
-  return Math.floor(Math.random() * upTo - 1) + 1
-}
-
-function fakeResourceGen () {
-  const name = faker.lorem.words(randomNum(3))
-  const body = faker.lorem.paragraph()
-  const button = new Link('Go to ' + name, faker.internet.url)
-  const links = new Array(2)
-  links.fill(new Link(faker.lorem.word(), faker.internet.url()), 0)
-  return new Resource(name, body, button, links)
-}
-
 function fakeResourcesGen () {
-  const resources = new Array(100)
-  resources.fill(fakeResourceGen(), 1)
-  return resources
+  return [
+    new Resource('Some Cool Learning Resource', 'Create personalized notifications and emails, and have them delivered to each user at the ideal time of day.', new Link(), [new Link({display: 'Listen'}), new Link({display: 'Watch'})]),
+    new Resource('Some Cool Learning Resource', 'Millions of users? We\'ve got them all covered. We support most devices and all major SDKs.', new Link(), [new Link({display: 'Listen'}), new Link({display: 'Watch'})]),
+    new Resource('Some Cool Learning Resource', 'Monitor the conversion of your notifications and emails in real time.', new Link(), [new Link({display: 'Watch'})])
+  ]
 }
 
 const resources = fakeResourcesGen()

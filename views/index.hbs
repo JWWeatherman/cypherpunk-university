@@ -1,19 +1,26 @@
-<div class="row resources flex flex-center">
+<div class="container-fluid resources">
 {{#each resources}}
-  <div class="card">
-    <div class="card-header text-center">
-      {{name}}
-    </div>
-    <div class="card-body">
-      <p>
-        {{body}}
-      </p>
-    </div>
-    <div class="card-footer">
-      <a href="#{{button.link}}" class="btn btn-primary">{{button.display}}</a>
-      {{#each links}}
-        <a href="#{{link}}" class="card-link align-baseline">{{display}}</a>
-      {{/each}}
+  <div class="row">
+    <div class="card col-sm-12 col-md-10 col-lg-8 col-xl-6 col-xl-mine">
+      <div class="card-header text-center">
+        {{name}}
+      </div>
+      <div class="card-body">
+        <p>
+          {{body}}
+        </p>
+      </div>
+      <div class="card-footer row">
+        <div class="col-3"></div>
+        <div class="col-6 class-btn">
+          <a href="#{{button.link}}" class="btn btn-primary">{{button.display}}</a>
+        </div>
+        <div class="col-3 link">
+          {{#each links}}
+            <a href="#{{link}}" class="card-link align-baseline">{{display}}</a>
+          {{/each}}
+        </div>
+      </div>
     </div>
   </div>
 {{/each}}

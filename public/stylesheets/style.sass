@@ -4,21 +4,25 @@ $blue: #00B7FF
 $border-radius-8: 8px
 $border-radius-3: 3px
 $white-font: #ffffff
-$black-font: #000000
+$black-font: #505050
+$default-font-size: 1.2rem
+$resource-header-font-size: 20px
+$header-font-size: 40px
+$bold-font: 800
+$line-height: 1.9rem
 
 body
   background-color: $background-color!important
   padding: 50px
-  font: 14px proxima-nova,proxima nova,open sans,sans-serif,system
+  font-family: proxima-nova,proxima nova,open sans,sans-serif,system
   color: $white-font!important
-
-a
-  color: $blue
+  font-size: $default-font-size!important
+  overflow: hidden
 
 .section-header-text
   font-family: proxima-nova,proxima nova,open sans,sans-serif,system
-  font-weight: 800
-  font-size: 40px
+  font-weight: $bold-font
+  font-size: $header-font-size
   line-height: 50px
   letter-spacing: -1px
   word-spacing: 1px
@@ -27,8 +31,7 @@ a
   text-align: center
 
 .section-subheader-text
-  font-size: 18px
-  font-weight: 300
+  font-weight: calc(#{$bold-font} / 2.66)
   line-height: 24px
 
 .flex
@@ -41,35 +44,62 @@ a
   flex-direction: column
 
 .resources
-  padding: 0 23%
-  .card
-    padding: 0
-    margin: 5% 0
-    border: none
-    border-radius: $border-radius-8 $border-radius-8 $border-radius-3 $border-radius-3
-    box-shadow: 0 1px 1px rgba(0,0,0,.5)
-    .card-header
-      font-size: 20px
-      font-weight: 600
-      background-color: $orange
-      min-height: 3rem
-      position: relative
-      border-top-left-radius: $border-radius-8
-      border-top-right-radius: $border-radius-8
-    .card-body
-      color: $black-font
-      padding: 2rem
-    .card-footer
-      display: flex
-      align-items: flex-end
-      justify-content: space-between
-      .btn
+  flex-direction: column
+  align-items: center
+  overflow: auto
+  .row
+    justify-content: center
+    .card
+      padding: 0
+      border: none
+      border-radius: $border-radius-8 $border-radius-8 $border-radius-3 $border-radius-3
+      box-shadow: 0 1px 1px rgba(0,0,0,.5)
+      font-size: $default-font-size
+      margin: 2rem 0
+      width: 650px
+      .card-header
+        font-size: $resource-header-font-size
+        font-weight: 600
         background-color: $orange
-        border: none
-        box-shadow: 0 2px 0 #bd5e5b
-        font-size: 16px
-        font-weight: 700
-        padding: 12px 40px 10px
-        border-radius: $border-radius-8
-      .card-link
-        margin: 0 3rem
+        min-height: 3rem
+        position: relative
+        border-top-left-radius: $border-radius-8
+        border-top-right-radius: $border-radius-8
+      .card-body
+        color: $black-font
+        padding: 2rem
+        line-height: $line-height
+      .card-footer
+        .link
+          text-decoration: underline
+          color: $black-font
+          justify-content: space-between
+          display: flex
+          align-items: flex-end
+          a
+            color: $black-font
+            font-size: calc(#{$default-font-size} * 0.9)
+            margin: 0
+            height: min-content
+        .class-btn
+          display: flex
+          justify-content: center
+          a
+            width: 75%
+        .btn
+          background-color: $orange
+          border: none
+          box-shadow: 0 2px 0 #bd5e5b
+          font-size: 16px
+          font-weight: 700
+          padding: 12px 40px 10px
+          border-radius: $border-radius-8
+        span
+          font-weight: calc(#{$bold-font} / 2.66)
+        .card-link
+          margin: 0 3rem
+
+
+@media (min-width: 1200px)
+  .col-xl-6
+    width: 650px!important

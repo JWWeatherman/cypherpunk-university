@@ -1,11 +1,10 @@
 body {
   background-color: #27383e !important;
   padding: 50px;
-  font: 14px proxima-nova,proxima nova,open sans,sans-serif,system;
-  color: #ffffff !important; }
-
-a {
-  color: #00B7FF; }
+  font-family: proxima-nova,proxima nova,open sans,sans-serif,system;
+  color: #ffffff !important;
+  font-size: 1.2rem !important;
+  overflow: hidden; }
 
 .section-header-text {
   font-family: proxima-nova,proxima nova,open sans,sans-serif,system;
@@ -19,8 +18,7 @@ a {
   text-align: center; }
 
 .section-subheader-text {
-  font-size: 18px;
-  font-weight: 300;
+  font-weight: calc(800 / 2.66);
   line-height: 24px; }
 
 .flex {
@@ -33,29 +31,48 @@ a {
   flex-direction: column; }
 
 .resources {
-  padding: 0 23%; }
-  .resources .card {
-    padding: 0;
-    margin: 5% 0;
-    border: none;
-    border-radius: 8px 8px 3px 3px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
-    .resources .card .card-header {
-      font-size: 20px;
-      font-weight: 600;
-      background-color: #fa7073;
-      min-height: 3rem;
-      position: relative;
-      border-top-left-radius: 8px;
-      border-top-right-radius: 8px; }
-    .resources .card .card-body {
-      color: #000000;
-      padding: 2rem; }
-    .resources .card .card-footer {
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between; }
-      .resources .card .card-footer .btn {
+  flex-direction: column;
+  align-items: center;
+  overflow: auto; }
+  .resources .row {
+    justify-content: center; }
+    .resources .row .card {
+      padding: 0;
+      border: none;
+      border-radius: 8px 8px 3px 3px;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+      font-size: 1.2rem;
+      margin: 2rem 0;
+      width: 650px; }
+      .resources .row .card .card-header {
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #fa7073;
+        min-height: 3rem;
+        position: relative;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px; }
+      .resources .row .card .card-body {
+        color: #505050;
+        padding: 2rem;
+        line-height: 1.9rem; }
+      .resources .row .card .card-footer .link {
+        text-decoration: underline;
+        color: #505050;
+        justify-content: space-between;
+        display: flex;
+        align-items: flex-end; }
+        .resources .row .card .card-footer .link a {
+          color: #505050;
+          font-size: calc(1.2rem * 0.9);
+          margin: 0;
+          height: min-content; }
+      .resources .row .card .card-footer .class-btn {
+        display: flex;
+        justify-content: center; }
+        .resources .row .card .card-footer .class-btn a {
+          width: 75%; }
+      .resources .row .card .card-footer .btn {
         background-color: #fa7073;
         border: none;
         box-shadow: 0 2px 0 #bd5e5b;
@@ -63,7 +80,13 @@ a {
         font-weight: 700;
         padding: 12px 40px 10px;
         border-radius: 8px; }
-      .resources .card .card-footer .card-link {
+      .resources .row .card .card-footer span {
+        font-weight: calc(800 / 2.66); }
+      .resources .row .card .card-footer .card-link {
         margin: 0 3rem; }
+
+@media (min-width: 1200px) {
+  .col-xl-6 {
+    width: 650px !important; } }
 
 /*# sourceMappingURL=style.css.map */
