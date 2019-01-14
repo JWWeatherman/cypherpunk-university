@@ -1,27 +1,29 @@
-<div class="container-fluid resources">
-{{#each resources}}
-  <div class="row">
-    <div class="card col-sm-12 col-md-10 col-lg-8 col-xl-6 col-xl-mine">
-      <div class="card-header text-center">
-        {{name}}
-      </div>
-      <div class="card-body">
-        <p>
-          {{body}}
-        </p>
-      </div>
-      <div class="card-footer row">
-        <div class="col-3"></div>
-        <div class="col-6 class-btn">
-          <a href="#{{button.link}}" class="btn btn-primary">{{button.display}}</a>
+<div class="row resources">
+  <ul class="list-group col-12">
+  {{#each resources}}
+    <li class="list-group-item">
+      <div class="card">
+        <div class="card-header text-center">
+          {{name}}
         </div>
-        <div class="col-3 link">
-          {{#each links}}
-            <a href="#{{link}}" class="card-link align-baseline">{{display}}</a>
-          {{/each}}
+        <div class="card-body">
+          <p>
+            {{body}}
+          </p>
+        </div>
+        <div class="card-footer row">
+          <div class="col-3"></div>
+          <div class="col-6 class-btn">
+            <a href="#{{button.link}}" class="btn btn-primary">{{button.display}}</a>
+          </div>
+          <div class="col-3 link">
+            {{#each links}}
+              <a href="#{{link}}" class="card-link align-baseline">{{display}}</a>
+            {{/each}}
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-{{/each}}
+    </li>
+  {{/each}}
+  </ul>
 </div>

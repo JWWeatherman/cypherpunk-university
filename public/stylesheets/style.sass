@@ -5,11 +5,11 @@ $border-radius-8: 8px
 $border-radius-3: 3px
 $white-font: #ffffff
 $black-font: #505050
-$default-font-size: 1.2rem
+$default-font-size: 18px
 $resource-header-font-size: 20px
 $header-font-size: 40px
 $bold-font: 800
-$line-height: 1.9rem
+$line-height: 26px
 
 body
   background-color: $background-color!important
@@ -17,13 +17,12 @@ body
   font-family: proxima-nova,proxima nova,open sans,sans-serif,system
   color: $white-font!important
   font-size: $default-font-size!important
-  overflow: hidden
 
 .section-header-text
   font-family: proxima-nova,proxima nova,open sans,sans-serif,system
   font-weight: $bold-font
   font-size: $header-font-size
-  line-height: 50px
+  line-height: 50px!important
   letter-spacing: -1px
   word-spacing: 1px
 
@@ -33,6 +32,7 @@ body
 .section-subheader-text
   font-weight: calc(#{$bold-font} / 2.66)
   line-height: 24px
+  font-size: $default-font-size
 
 .flex
   display: flex
@@ -47,59 +47,63 @@ body
   flex-direction: column
   align-items: center
   overflow: auto
-  .row
-    justify-content: center
-    .card
-      padding: 0
+  .list-group
+    .list-group-item
+      background-color: transparent
       border: none
-      border-radius: $border-radius-8 $border-radius-8 $border-radius-3 $border-radius-3
-      box-shadow: 0 1px 1px rgba(0,0,0,.5)
-      font-size: $default-font-size
-      margin: 2rem 0
-      width: 650px
-      .card-header
-        font-size: $resource-header-font-size
-        font-weight: 600
-        background-color: $orange
-        min-height: 3rem
-        position: relative
-        border-top-left-radius: $border-radius-8
-        border-top-right-radius: $border-radius-8
-      .card-body
-        color: $black-font
-        padding: 2rem
-        line-height: $line-height
-      .card-footer
-        .link
-          text-decoration: underline
-          color: $black-font
-          justify-content: space-between
-          display: flex
-          align-items: flex-end
-          a
-            color: $black-font
-            font-size: calc(#{$default-font-size} * 0.9)
-            margin: 0
-            height: min-content
-        .class-btn
-          display: flex
-          justify-content: center
-          a
-            width: 75%
-        .btn
+      margin-top: 1.5rem
+      .card
+        padding: 0
+        border: none
+        border-radius: $border-radius-8 $border-radius-8 $border-radius-3 $border-radius-3
+        box-shadow: 0 1px 1px rgba(0,0,0,.5)
+        font-size: $default-font-size
+        margin: 0 auto
+        width: 100%
+        max-width: 650px
+        .card-header
+          font-size: $resource-header-font-size
+          font-weight: 600
           background-color: $orange
-          border: none
-          box-shadow: 0 2px 0 #bd5e5b
-          font-size: 16px
-          font-weight: 700
-          padding: 12px 40px 10px
-          border-radius: $border-radius-8
-        span
-          font-weight: calc(#{$bold-font} / 2.66)
-        .card-link
-          margin: 0 3rem
+          min-height: 3rem
+          position: relative
+          border-top-left-radius: $border-radius-8
+          border-top-right-radius: $border-radius-8
+        .card-body
+          color: $black-font
+          padding: 2rem
+          line-height: $line-height
+        .card-footer
+          .link
+            text-decoration: underline
+            color: $black-font
+            justify-content: space-between
+            display: flex
+            align-items: flex-end
+            a
+              color: $black-font
+              font-size: calc(#{$default-font-size} * 0.9)
+              margin: 0
+              height: min-content
+          .class-btn
+            display: flex
+            justify-content: center
+            a
+              width: 75%
+          .btn
+            background-color: $orange
+            border: none
+            box-shadow: 0 2px 0 #bd5e5b
+            font-size: 16px
+            font-weight: 700
+            padding: 12px 40px 10px
+            border-radius: $border-radius-8
+          span
+            font-weight: calc(#{$bold-font} / 2.66)
+          .card-link
+            margin: 0 3rem
 
 
-@media (min-width: 1200px)
-  .col-xl-6
-    width: 650px!important
+::-webkit-scrollbar
+  display: none
+

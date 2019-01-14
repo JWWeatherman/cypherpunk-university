@@ -3,14 +3,13 @@ body {
   padding: 50px;
   font-family: proxima-nova,proxima nova,open sans,sans-serif,system;
   color: #ffffff !important;
-  font-size: 1.2rem !important;
-  overflow: hidden; }
+  font-size: 18px !important; }
 
 .section-header-text {
   font-family: proxima-nova,proxima nova,open sans,sans-serif,system;
   font-weight: 800;
   font-size: 40px;
-  line-height: 50px;
+  line-height: 50px !important;
   letter-spacing: -1px;
   word-spacing: 1px; }
 
@@ -19,7 +18,8 @@ body {
 
 .section-subheader-text {
   font-weight: calc(800 / 2.66);
-  line-height: 24px; }
+  line-height: 24px;
+  font-size: 18px; }
 
 .flex {
   display: flex; }
@@ -34,17 +34,20 @@ body {
   flex-direction: column;
   align-items: center;
   overflow: auto; }
-  .resources .row {
-    justify-content: center; }
-    .resources .row .card {
+  .resources .list-group .list-group-item {
+    background-color: transparent;
+    border: none;
+    margin-top: 1.5rem; }
+    .resources .list-group .list-group-item .card {
       padding: 0;
       border: none;
       border-radius: 8px 8px 3px 3px;
       box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-      font-size: 1.2rem;
-      margin: 2rem 0;
-      width: 650px; }
-      .resources .row .card .card-header {
+      font-size: 18px;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 650px; }
+      .resources .list-group .list-group-item .card .card-header {
         font-size: 20px;
         font-weight: 600;
         background-color: #fa7073;
@@ -52,27 +55,27 @@ body {
         position: relative;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px; }
-      .resources .row .card .card-body {
+      .resources .list-group .list-group-item .card .card-body {
         color: #505050;
         padding: 2rem;
-        line-height: 1.9rem; }
-      .resources .row .card .card-footer .link {
+        line-height: 26px; }
+      .resources .list-group .list-group-item .card .card-footer .link {
         text-decoration: underline;
         color: #505050;
         justify-content: space-between;
         display: flex;
         align-items: flex-end; }
-        .resources .row .card .card-footer .link a {
+        .resources .list-group .list-group-item .card .card-footer .link a {
           color: #505050;
-          font-size: calc(1.2rem * 0.9);
+          font-size: calc(18px * 0.9);
           margin: 0;
           height: min-content; }
-      .resources .row .card .card-footer .class-btn {
+      .resources .list-group .list-group-item .card .card-footer .class-btn {
         display: flex;
         justify-content: center; }
-        .resources .row .card .card-footer .class-btn a {
+        .resources .list-group .list-group-item .card .card-footer .class-btn a {
           width: 75%; }
-      .resources .row .card .card-footer .btn {
+      .resources .list-group .list-group-item .card .card-footer .btn {
         background-color: #fa7073;
         border: none;
         box-shadow: 0 2px 0 #bd5e5b;
@@ -80,13 +83,12 @@ body {
         font-weight: 700;
         padding: 12px 40px 10px;
         border-radius: 8px; }
-      .resources .row .card .card-footer span {
+      .resources .list-group .list-group-item .card .card-footer span {
         font-weight: calc(800 / 2.66); }
-      .resources .row .card .card-footer .card-link {
+      .resources .list-group .list-group-item .card .card-footer .card-link {
         margin: 0 3rem; }
 
-@media (min-width: 1200px) {
-  .col-xl-6 {
-    width: 650px !important; } }
+::-webkit-scrollbar {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
