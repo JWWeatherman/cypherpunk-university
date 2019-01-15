@@ -64,12 +64,6 @@ const exampleResources = [
  */
 const resources = [
   // ADD ACTUAL RESOURCES HERE
-    new Resource(
-      'This is a lovely resource!', // Header
-      'Create personalized notifications and emails, and have them delivered to each user at the ideal time of day.', // Body
-      new Link('READ', '#'), // Button
-      [new Link('Listen', '#'), new Link('Watch', '#')] // Links
-    ),
 ]
 
 /**
