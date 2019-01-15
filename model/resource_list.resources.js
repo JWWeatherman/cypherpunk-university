@@ -58,7 +58,7 @@ const exampleResources = [
   ]
 
 /**
- * @description This is the spot to place actual resources.
+ * @description This is the spot to place actual model.
  * When this array is populated it will be rendered automatically.
  * @type {Resource[]}
  */
