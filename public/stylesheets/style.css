@@ -2,6 +2,7 @@ body {
   background-color: #27383e !important;
   padding: 50px;
   font-family: proxima-nova,proxima nova,open sans,sans-serif,system;
+  font-weight: 300;
   color: #ffffff !important;
   font-size: 18px !important; }
 
@@ -21,6 +22,9 @@ body {
   line-height: 24px;
   font-size: 18px; }
 
+.row {
+  padding: 0; }
+
 .flex {
   display: flex; }
 
@@ -39,7 +43,7 @@ body {
     .resources .list-group .list-group-item {
       background-color: transparent;
       border: none;
-      margin-top: 1.5rem; }
+      margin-top: 50px; }
       .resources .list-group .list-group-item .card {
         padding: 0;
         border: none;
@@ -60,47 +64,53 @@ body {
           color: #505050;
           padding: 2rem;
           line-height: 26px; }
-        .resources .list-group .list-group-item .card .card-footer .link {
-          text-decoration: underline;
-          color: #505050;
-          justify-content: space-between;
+        .resources .list-group .list-group-item .card .card-footer .row, .resources .list-group .list-group-item .card .card-footer .row div {
+          display: flex; }
+        .resources .list-group .list-group-item .card .card-footer .row .links {
           display: flex;
-          align-items: flex-end; }
-          .resources .list-group .list-group-item .card .card-footer .link a {
+          justify-content: space-between; }
+          .resources .list-group .list-group-item .card .card-footer .row .links .card-link {
+            text-decoration: underline;
             color: #505050;
-            font-size: calc(18px * 0.9);
-            margin: 0;
-            height: min-content; }
-        .resources .list-group .list-group-item .card .card-footer .class-btn {
-          display: flex;
-          justify-content: center; }
-          .resources .list-group .list-group-item .card .card-footer .class-btn a {
-            width: 75%; }
-        .resources .list-group .list-group-item .card .card-footer .btn {
-          background-color: #fa7073;
-          border: none;
-          box-shadow: 0 2px 0 #bd5e5b;
-          font-size: 16px;
-          font-weight: 700;
-          padding: 12px 40px 10px;
-          border-radius: 8px; }
-        .resources .list-group .list-group-item .card .card-footer span {
+            justify-content: space-between;
+            display: flex;
+            align-items: flex-end;
+            margin: 0 1rem; }
+        .resources .list-group .list-group-item .card .card-footer .row .button-box {
+          padding: 0; }
+          .resources .list-group .list-group-item .card .card-footer .row .button-box .btn {
+            background-color: #fa7073;
+            border: none;
+            box-shadow: 0 2px 0 #bd5e5b;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 8px;
+            padding: 12px 40px 10px;
+            margin: 0 auto;
+            text-transform: uppercase;
+            white-space: nowrap;
+            max-width: 100%; }
+        .resources .list-group .list-group-item .card .card-footer .row span {
           font-weight: calc(800 / 2.66); }
-        .resources .list-group .list-group-item .card .card-footer .card-link {
+        .resources .list-group .list-group-item .card .card-footer .row .card-link {
           margin: 0 3rem; }
 
 ::-webkit-scrollbar {
   display: none; }
 
-@media (max-width: 991px) {
-  .section-header-text {
-    font-size: calc(40px * 1.5) !important; }
-  .section-subheader-text, .card-body, .card-header, .btn {
-    font-size: calc(18px * 1.5) !important;
-    line-height: calc(26px * 1.5) !important; }
-  .link a {
-    font-size: calc(18px * 1.2) !important; }
-  .card {
-    width: 100% !important; } }
+@media (max-width: 750px) {
+  .list-group-item, .card {
+    width: 100% !important; }
+  .card-footer .row {
+    display: block !important; }
+    .card-footer .row div:first-child {
+      display: none !important; }
+    .card-footer .row .button-box .btn {
+      white-space: normal !important; }
+    .card-footer .row .links {
+      padding: 0 !important;
+      margin: 0 !important; }
+      .card-footer .row .links a {
+        margin: 0 !important; } }
 
 /*# sourceMappingURL=style.css.map */

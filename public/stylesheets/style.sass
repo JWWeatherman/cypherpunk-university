@@ -15,6 +15,7 @@ body
   background-color: $background-color!important
   padding: 50px
   font-family: proxima-nova,proxima nova,open sans,sans-serif,system
+  font-weight: 300
   color: $white-font!important
   font-size: $default-font-size!important
 
@@ -34,6 +35,9 @@ body
   line-height: 24px
   font-size: $default-font-size
 
+.row
+  padding: 0
+
 .flex
   display: flex
 
@@ -52,7 +56,7 @@ body
     .list-group-item
       background-color: transparent
       border: none
-      margin-top: 1.5rem
+      margin-top: 50px
       .card
         padding: 0
         border: none
@@ -74,45 +78,54 @@ body
           padding: 2rem
           line-height: $line-height
         .card-footer
-          .link
-            text-decoration: underline
-            color: $black-font
-            justify-content: space-between
-            display: flex
-            align-items: flex-end
-            a
-              color: $black-font
-              font-size: calc(#{$default-font-size} * 0.9)
-              margin: 0
-              height: min-content
-          .class-btn
-            display: flex
-            justify-content: center
-            a
-              width: 75%
-          .btn
-            background-color: $orange
-            border: none
-            box-shadow: 0 2px 0 #bd5e5b
-            font-size: 16px
-            font-weight: 700
-            padding: 12px 40px 10px
-            border-radius: $border-radius-8
-          span
-            font-weight: calc(#{$bold-font} / 2.66)
-          .card-link
-            margin: 0 3rem
+          .row
+            &, div
+              display: flex
+            .links
+              display: flex
+              justify-content: space-between
+              .card-link
+                text-decoration: underline
+                color: $black-font
+                justify-content: space-between
+                display: flex
+                align-items: flex-end
+                margin: 0 1rem
+            .button-box
+              padding: 0
+              .btn
+                background-color: $orange
+                border: none
+                box-shadow: 0 2px 0 #bd5e5b
+                font-size: 16px
+                font-weight: 700
+                border-radius: $border-radius-8
+                padding: 12px 40px 10px
+                margin: 0 auto
+                text-transform: uppercase
+                white-space: nowrap
+                max-width: 100%
+            span
+              font-weight: calc(#{$bold-font} / 2.66)
+            .card-link
+              margin: 0 3rem
 
 ::-webkit-scrollbar
   display: none
 
-@media (max-width: 991px)
-  .section-header-text
-    font-size: calc(#{$header-font-size} * 1.5)!important
-  .section-subheader-text, .card-body, .card-header, .btn
-    font-size: calc(#{$default-font-size} * 1.5)!important
-    line-height: calc(#{$line-height} * 1.5)!important
-  .link a
-    font-size: calc(#{$default-font-size} * 1.2)!important
-  .card
+@media (max-width: 750px)
+  .list-group-item, .card
     width: 100%!important
+  .card-footer
+    .row
+      display: block!important
+      div:first-child
+        display: none!important
+      .button-box
+        .btn
+          white-space: normal!important
+      .links
+        padding: 0!important
+        margin: 0!important
+        a
+          margin: 0!important

@@ -32,18 +32,18 @@ const exampleResources = [
      * 2 links
      */
     new Resource(
-      'Some Cool Learning Resource', // Header
+      'Get started with our free plan - no credit card required', // Header
       'Create personalized notifications and emails, and have them delivered to each user at the ideal time of day.', // Body
-      new Link('READ', '#'), // Button
+      new Link('CONTACT US FOR DETAILS', '#'), // Button
       [new Link('Listen', '#'), new Link('Watch', '#')] // Links
     ),
     /**
      * 1 link
      */
     new Resource(
-      'Some Cool Learning Resource', // Header
+      'Pro and Premium options from just $99/mo', // Header
       'Millions of users? We\'ve got them all covered. We support most devices and all major SDKs.', // Body
-      new Link('READ', '#'), // Button
+      new Link('GET STARTED FOR FREE', '#'), // Button
       [new Link('Listen', '#')] // Links
     ),
     /**
@@ -58,7 +58,7 @@ const exampleResources = [
   ]
 
 /**
- * @description This is the spot to place actual model.
+ * @description This is the spot to place actual resources.
  * When this array is populated it will be rendered automatically.
  * @type {Resource[]}
  */
