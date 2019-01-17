@@ -64,8 +64,8 @@ const exampleResources = [
  */
 const resources = [
     new Resource(
-      '3 hours - Bitcoin and Economics by JW Weatherman', // Header
-      'This 6 part lecture series will give you a solid understanding of economics you need to understand the problems bitcoin is designed to solve and why only Bitcoin is the only viable and genuine attempt to create a better form of money.', // Body
+      '3 hours - Bitcoin and Economics', // Header
+      'This 6 part lecture series by JW Weatherman will give you a solid understanding of economics you need to understand the problems bitcoin is designed to solve and why only Bitcoin is the only viable and genuine attempt to create a better form of money.', // Body
       new Link('WATCH', '#'), // Button
     ),
   // ADD ACTUAL RESOURCES HERE
