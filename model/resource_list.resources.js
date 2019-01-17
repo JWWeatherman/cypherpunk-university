@@ -74,6 +74,11 @@ const resources = [
       'This six part lecture series by JW Weatherman will give you a solid understanding of economics you need to understand the problems bitcoin is designed to solve and why Bitcoin is the only viable and genuine attempt to create a better form of money.', // Body
       new Link('Watch', '#'), // Button
     ),
+    new Resource(
+      '2 hours - Bitcoin Threat Model', // Header
+      'The Bitcoin threat model is a systematic analysis of the ways Bitcoin could be caused to fail. By taking the perspective of an attacker determined to destroy Bitcoin you can gain a greater understanding of the design decisions and liklihood of Bitcoin's success in becoming global electronic cash', // Body
+      new Link('Watch', '#'), // Button
+    ),
   // ADD ACTUAL RESOURCES HERE
 ]
 
