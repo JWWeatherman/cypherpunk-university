@@ -71,7 +71,7 @@ const resources = [
     ),
     new Resource(
       '3 hours - Bitcoin and Economics', // Header
-      'This 6 part lecture series by JW Weatherman will give you a solid understanding of economics you need to understand the problems bitcoin is designed to solve and why only Bitcoin is the only viable and genuine attempt to create a better form of money.', // Body
+      'This six part lecture series by JW Weatherman will give you a solid understanding of economics you need to understand the problems bitcoin is designed to solve and why only Bitcoin is the only viable and genuine attempt to create a better form of money.', // Body
       new Link('Watch', '#'), // Button
     ),
   // ADD ACTUAL RESOURCES HERE
