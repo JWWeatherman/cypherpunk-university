@@ -1,13 +1,14 @@
 body {
   background-color: #27383e !important;
   padding: 50px;
-  font-family: proxima-nova,proxima nova,open sans,sans-serif,system;
+  font-family: proxima-nova,open sans,sans-serif,system;
   font-weight: 300;
   color: #ffffff !important;
-  font-size: 18px !important; }
+  font-size: 18px !important;
+  word-spacing: 1px; }
 
 .section-header-text {
-  font-family: proxima-nova,proxima nova,open sans,sans-serif,system;
+  font-family: proxima-nova-bold,open sans,sans-serif,system;
   font-weight: 800;
   font-size: 40px;
   line-height: 50px !important;
@@ -89,7 +90,7 @@ body {
             margin: 0 auto;
             text-transform: uppercase;
             white-space: nowrap;
-            max-width: 100%; }
+            width: 100%; }
         .resources .list-group .list-group-item .card .card-footer .row span {
           font-weight: calc(800 / 2.66); }
         .resources .list-group .list-group-item .card .card-footer .row .card-link {

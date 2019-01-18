@@ -15,11 +15,11 @@
           <div class="row">
             <div class="col"></div>
             <div class="col button-box">
-              <a href="#{{button.link}}" class="btn btn-primary">{{button.display}}</a>
+              <a href="{{button.url}}" target="_blank" class="btn btn-primary">{{button.display}}</a>
             </div>
             <div class="col links">
               {{#each links}}
-                <a href="#{{link}}" class="card-link align-baseline">{{display}}</a>
+                <a href="{{url}}" target="_blank" class="card-link align-baseline">{{display}}</a>
               {{/each}}
             </div>
           </div>
