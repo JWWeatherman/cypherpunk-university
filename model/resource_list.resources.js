@@ -55,6 +55,12 @@ const exampleResources = [
       'Millions of users? We\'ve got them all covered. We support most devices and all major SDKs.', // Body
       new Link('READ', '#') // Button
     )
+    new Resource(
+      '15 minutes - Bitcoin Maximalst Manifesto', // Header
+      'Get an introduction and overview of Bitcoin from the perspective of the cypherpunk movement that created it by JW Weatherman.', // Body
+      new Link('LISTEN', 'https://www.stitcher.com/podcast/jw-weatherman-show/e/55158727'), // BuWATCHHtton
+      [new Link('Read', 'https://github.com/JWWeatherman/bitcoinMaximalist/blob/master/README.md'), new Link('Watch', 'https://www.youtube.com/watch?v=361nU4Pl4ag')] // Links
+    ),
   ]
 
 /**
@@ -63,12 +69,6 @@ const exampleResources = [
  * @type {Resource[]}
  */
 const resources = [
-    new Resource(
-      '15 minutes - Bitcoin Maximalst Manifesto', // Header
-      'Get an introduction and overview of Bitcoin from the perspective of the cypherpunk movement that created it by JW Weatherman.', // Body
-      new Link('LISTEN', 'https://www.stitcher.com/podcast/jw-weatherman-show/e/55158727'), // BuWATCHHtton
-      [new Link('Read', 'https://github.com/JWWeatherman/bitcoinMaximalist/blob/master/README.md'), new Link('Watch', 'https://www.youtube.com/watch?v=361nU4Pl4ag')] // Links
-    ),
     new Resource(
       '3 hours - Bitcoin and Economics', // Header
       'This six part lecture series by JW Weatherman will give you a solid understanding of economics you need to understand the problems bitcoin is designed to solve and why Bitcoin is the only viable and genuine attempt to create a better form of money.', // Body
