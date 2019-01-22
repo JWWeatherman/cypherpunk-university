@@ -1,15 +1,14 @@
 body {
   background-color: #27383e !important;
   padding: 50px;
-  font-family: proxima-nova,open sans,sans-serif,system;
+  font-family: proxima-nova, open sans, sans-serif, system;
   font-weight: 300;
-  color: #ffffff !important;
+  color: #f8f8f8 !important;
   font-size: 18px !important;
   word-spacing: 1px; }
 
 .section-header-text {
   font-family: proxima-nova-bold,open sans,sans-serif,system;
-  font-weight: 800;
   font-size: 40px;
   line-height: 50px !important;
   letter-spacing: -1px;
@@ -35,83 +34,56 @@ body {
 .flex-column {
   flex-direction: column; }
 
-.resources {
-  flex-direction: column;
-  align-items: center;
-  overflow: auto; }
-  .resources .list-group {
-    padding: 0; }
-    .resources .list-group .list-group-item {
-      background-color: transparent;
-      border: none;
-      margin-top: 50px; }
-      .resources .list-group .list-group-item .card {
-        padding: 0;
-        border: none;
-        border-radius: 8px 8px 3px 3px;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-        font-size: 18px;
-        margin: 0 auto;
-        width: 650px; }
-        .resources .list-group .list-group-item .card .card-header {
-          font-size: 20px;
-          font-weight: 600;
-          background-color: #fa7073;
-          min-height: 3rem;
-          position: relative;
-          border-top-left-radius: 8px;
-          border-top-right-radius: 8px; }
-        .resources .list-group .list-group-item .card .card-body {
-          color: #505050;
-          padding: 2rem;
-          line-height: 26px; }
-        .resources .list-group .list-group-item .card .card-footer .row, .resources .list-group .list-group-item .card .card-footer .row div {
-          display: flex; }
-        .resources .list-group .list-group-item .card .card-footer .row .links {
-          display: flex;
-          justify-content: space-between; }
-          .resources .list-group .list-group-item .card .card-footer .row .links .card-link {
-            text-decoration: underline;
-            color: #505050;
-            justify-content: space-between;
-            display: flex;
-            align-items: flex-end;
-            margin: 0 1rem; }
-        .resources .list-group .list-group-item .card .card-footer .row .button-box {
-          padding: 0; }
-          .resources .list-group .list-group-item .card .card-footer .row .button-box .btn {
-            background-color: #fa7073;
-            border: none;
-            box-shadow: 0 2px 0 #bd5e5b;
-            font-size: 16px;
-            font-weight: 700;
-            border-radius: 8px;
-            padding: 12px 40px 10px;
-            margin: 0 auto;
-            text-transform: uppercase;
-            white-space: nowrap;
-            width: 100%; }
-        .resources .list-group .list-group-item .card .card-footer .row span {
-          font-weight: calc(800 / 2.66); }
-        .resources .list-group .list-group-item .card .card-footer .row .card-link {
-          margin: 0 3rem; }
+.card {
+  border: none;
+  margin: 50px auto 30px auto !important;
+  border-radius: 8px 8px 3px 3px; }
 
-::-webkit-scrollbar {
-  display: none; }
+.card-header {
+  background-color: #fa7073;
+  padding: 10px auto !important;
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important; }
 
-@media (max-width: 750px) {
-  .list-group-item, .card {
-    width: 100% !important; }
-  .card-footer .row {
-    display: block !important; }
-    .card-footer .row div:first-child {
-      display: none !important; }
-    .card-footer .row .button-box .btn {
-      white-space: normal !important; }
-    .card-footer .row .links {
-      padding: 0 !important;
-      margin: 0 !important; }
-      .card-footer .row .links a {
-        margin: 0 !important; } }
+.card-header p {
+  margin: 0; }
+
+p.panel-title {
+  color: #f8f8f8;
+  font-family: proxima-nova-bold, open sans, sans-serif, system;
+  font-size: 20px;
+  font-weight: 800; }
+
+.card-body {
+  font-size: 18px;
+  line-height: 26px;
+  color: #505050;
+  padding: 40px; }
+
+.card-footer {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px; }
+
+.button-spot {
+  display: flex;
+  justify-content: center; }
+
+.card-footer .button-spot .btn {
+  background-color: #fa7073;
+  width: 100%;
+  border-radius: 6px;
+  color: #f8f8f8;
+  padding: 12px 40px 10px;
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: 0 2px 0 #bd5e5b;
+  text-transform: uppercase;
+  border: none;
+  white-space: nowrap; }
+
+.links-spot {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between; }
 
 /*# sourceMappingURL=style.css.map */

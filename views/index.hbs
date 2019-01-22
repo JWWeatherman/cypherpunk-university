@@ -1,31 +1,31 @@
-<div class="row resources">
-  <ul class="list-group col-12">
-  {{#each resources}}
-    <li class="list-group-item">
-      <div class="card">
-        <div class="card-header text-center">
+<div class="col">
+{{#each resources}}
+  <div class="row">
+    <div class="card" style="width: 650px; margin: 0 auto;">
+      <div class="card-header text-center">
+        <p class="panel-title ">
           {{name}}
-        </div>
-        <div class="card-body">
-          <p>
-            {{body}}
-          </p>
-        </div>
-        <div class="card-footer">
-          <div class="row">
-            <div class="col"></div>
-            <div class="col button-box">
-              <a href="{{button.url}}" target="_blank" class="btn btn-primary">{{button.display}}</a>
-            </div>
-            <div class="col links">
-              {{#each links}}
-                <a href="{{url}}" target="_blank" class="card-link align-baseline">{{display}}</a>
-              {{/each}}
-            </div>
+        </p>
+      </div>
+      <div class="card-body">
+        <p>
+          {{body}}
+        </p>
+      </div>
+      <div class="card-footer">
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-6 button-spot">
+            <a href="{{button.url}}" target="_blank" class="btn btn-primary">{{button.display}}</a>
+          </div>
+          <div class="col-3 links-spot">
+            {{#each links}}
+              <a href="{{url}}" target="_blank" class="card-link">{{display}}</a>
+            {{/each}}
           </div>
         </div>
       </div>
-    </li>
-  {{/each}}
-  </ul>
+    </div>
+  </div>
+{{/each}}
 </div>
