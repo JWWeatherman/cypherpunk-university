@@ -14,17 +14,19 @@ $font-family-base: proxima-nova,open sans,sans-serif,system
 $font-family-bold: proxima-nova-bold,open sans,sans-serif,system
 $line-height: 26px
 $card-body-padding: 40px
+$card-width: 650px
+$header-line-height: 50px
 
 body
   background-color: $background-color!important
-  padding: 50px
   font-family: $font-family-base
   font-weight: 300
   color: $white-font!important
   font-size: $default-font-size!important
   word-spacing: 1px
+  padding-top: 50px
 
-.section-header-text
+.header-text
   font-family: proxima-nova-bold,open sans,sans-serif,system
   font-size: $header-font-size
   line-height: 50px!important
@@ -34,13 +36,16 @@ body
 .text-center
   text-align: center
 
-.section-subheader-text
-  font-weight: calc(#{$bold-font} / 2.66)
-  line-height: 24px
+.subheader-text
   font-size: $default-font-size
+  line-height: calc(#{$header-line-height} / 2)
+
+.container
+  max-width: 1080px
 
 .row
   padding: 0
+  margin: 0
 
 .flex
   display: flex
@@ -53,8 +58,12 @@ body
 
 .card
   border: none
-  margin: 50px auto 30px auto!important
+  margin: 50px auto 30px auto
   border-radius: $border-radius-8 $border-radius-8 $border-radius-3 $border-radius-3
+  width: $card-width
+  max-width: 100%
+  font-size: $default-font-size
+  line-height: $line-height
 
 .card-header
   background-color: $orange
@@ -68,12 +77,8 @@ body
 p.panel-title
   color: $white-font
   font-family: $font-family-bold
-  font-size: $card-header-font-size
-  font-weight: $bold-font
 
 .card-body
-  font-size: $default-font-size
-  line-height: $line-height
   color: $black-font
   padding: $card-body-padding
 
@@ -91,8 +96,9 @@ p.panel-title
   border-radius: 6px
   color: $white-font
   padding: 12px 40px 10px
-  font-weight: 700
-  font-size: 16px
+  font-family: $font-family-bold
+  font-weight: $bold-font
+  font-size: $default-font-size
   box-shadow: 0 2px 0 $btn-shadow-color
   text-transform: uppercase
   border: none
@@ -101,4 +107,17 @@ p.panel-title
 .links-spot
   display: flex
   align-items: flex-end
-  justify-content: space-between
+  justify-content: space-evenly
+
+::-webkit-scrollbar
+  display: none
+
+@media (max-width: 650px)
+  .container-fluid
+    padding: 5px
+  .card-footer .row
+    display: block!important
+  .footer-filler
+    display: none!important
+  .links-spot
+    max-width: 100%

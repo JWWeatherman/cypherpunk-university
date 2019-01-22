@@ -1,7 +1,6 @@
-<div class="col">
+<div class="container-fluid">
 {{#each resources}}
-  <div class="row">
-    <div class="card" style="width: 650px; margin: 0 auto;">
+    <div class="card">
       <div class="card-header text-center">
         <p class="panel-title ">
           {{name}}
@@ -14,8 +13,8 @@
       </div>
       <div class="card-footer">
         <div class="row">
-          <div class="col-3"></div>
-          <div class="col-6 button-spot">
+          <div class="col-3 footer-filler"></div>
+          <div class="col button-spot">
             <a href="{{button.url}}" target="_blank" class="btn btn-primary">{{button.display}}</a>
           </div>
           <div class="col-3 links-spot">
@@ -26,6 +25,5 @@
         </div>
       </div>
     </div>
-  </div>
 {{/each}}
 </div>
