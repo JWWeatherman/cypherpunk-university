@@ -60,11 +60,6 @@ const resources = [
     '2 hours - Bitcoin Threat Model', // Header
     'The Bitcoin threat model is a systematic analysis By taking the perspective of an attacker Bitcoin you can gain a greater understanding of the design decisions and liklihood of Bitcoins success in becoming global electronic cash', // Body
     new Link('Watch', '#') // Button
-  ),
-  new Resource(
-    '2 hours - Bitcoin Threat Model', // Header
-    'The Bitcoin threat model is a systematic analysis By taking the perspective of an attacker Bitcoin you can gain a greater understanding of the design decisions and liklihood of Bitcoins success in becoming global electronic cash', // Body
-    new Link('Watch', '#') // Button
   )
   // ADD ACTUAL RESOURCES HERE
 ]
