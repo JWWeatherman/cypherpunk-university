@@ -43,7 +43,7 @@ class Resource {
  */
 const resources = [
   new Resource(
-    '10 minutes - Bitcoin Standard Forward', // Header
+    '10 minutes - Bitcoin Standard Prologue', // Header
     'Get an introduction and overview of Bitcoin from Saifedean Ammous the author of The Bitcoin Standard.', // Body
     new Link('LISTEN', 'https://bitcoinstandardintro.podbean.com/e/prologue-of-the-bitcoin-standard/'), // Button
     [
