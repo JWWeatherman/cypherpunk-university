@@ -51,23 +51,14 @@ const resources = [
     ] // Links
   ),
   new Resource(
-    '15 minutes - Bitcoin Maximalst Manifesto', // Header
-    'Get an introduction and overview of Bitcoin from the perspective of the cypherpunk movement that created it by JW Weatherman.', // Body
-    new Link('LISTEN', 'https://www.stitcher.com/podcast/jw-weatherman-show/e/55158727'), // Button
-    [
-      new Link('Read', 'https://github.com/JWWeatherman/bitcoinMaximalist/blob/master/README.md'),
-      new Link('Watch', 'https://www.youtube.com/watch?v=361nU4Pl4ag')
-    ] // Links
-  ),
-  new Resource(
     '3 hours - Bitcoin and Economics', // Header
     'This six part lecture series by JW Weatherman will give you a solid understanding of economics you need to understand the problems bitcoin is designed to solve and why Bitcoin is the only viable and genuine attempt to create a better form of money.', // Body
-    new Link('Watch', '#') // Button
+    new Link('Watch', 'https://www.youtube.com/playlist?list=PLxxj-sCQ0oJJs9BmBJ5rY-n2JE9dOfGnt') // Button
   ),
   new Resource(
     '2 hours - Bitcoin Threat Model', // Header
     'The Bitcoin threat model is a systematic analysis By taking the perspective of an attacker Bitcoin you can gain a greater understanding of the design decisions and liklihood of Bitcoins success in becoming global electronic cash', // Body
-    new Link('Watch', '#') // Button
+    new Link('Read', 'https://github.com/JWWeatherman/bitcoin_security_threat_model') // Bu#tton
   )
   // ADD ACTUAL RESOURCES HERE
 ]
