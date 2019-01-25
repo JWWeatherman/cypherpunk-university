@@ -43,6 +43,14 @@ class Resource {
  */
 const resources = [
   new Resource(
+    '10 minutes - Bitcoin Standard Forward', // Header
+    'Get an introduction and overview of Bitcoin from Saifedean Ammous the author of The Bitcoin Standard.', // Body
+    new Link('LISTEN', 'https://bitcoinstandardintro.podbean.com/e/prologue-of-the-bitcoin-standard/'), // Button
+    [
+      new Link('Read', 'https://docs.google.com/document/d/1AOUazAHeG_49s53eJifosdY9cFVvA7ZZOhICwebAgws/edit?usp=sharing'),
+    ] // Links
+  ),
+  new Resource(
     '15 minutes - Bitcoin Maximalst Manifesto', // Header
     'Get an introduction and overview of Bitcoin from the perspective of the cypherpunk movement that created it by JW Weatherman.', // Body
     new Link('LISTEN', 'https://www.stitcher.com/podcast/jw-weatherman-show/e/55158727'), // Button
