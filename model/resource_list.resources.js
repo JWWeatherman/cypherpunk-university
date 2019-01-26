@@ -71,10 +71,11 @@ const resources = [
   new Resource(
     '1 hour - Money, Blockchains, and Social Scalability', // Header
     'Learn why the secret to Bitcoin’s success is that its prolific resource consumption and poor computational scalability is buying something even more valuable: social scalability.', // Body
-    new Link('Read', 'http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html'), // Bu#tton
+    new Link('Listen', 'https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_066---Money--Blockchains--and-Social-Scalability-e2ndsj'), // Bu#tton
     [
-      new Link('Read', 'https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_066---Money--Blockchains--and-Social-Scalability-e2ndsj'),
+      new Link('Read', 'http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html'),
     ] // Links
+
   ),
   new Resource(
     '1 hour - Bitcoin Threat Model', // Header
