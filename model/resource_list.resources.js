@@ -88,7 +88,7 @@ const resources = [
   new Resource(
     '1 hour - Simplicity Smart Contracts', // Header
     'Learn how bitcoin will securely support complex smart contracts where other blockchains have failed.', // Body
-    new Link('Watch', 'https://www.youtube.com/watch?v=3PcR4HWJnkY&feature=youtu.be') // Bu#tton
+    new Link('Watch', 'https://www.youtube.com/watch?v=VOeUq3oR2fk&t=436s') // Bu#tton
   ),
   new Resource(
     '30 minutes - Liquid Sidechain', // Header
