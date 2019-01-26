@@ -73,7 +73,7 @@ const resources = [
   new Resource(
     '2 hours - Human Threat Model', // Header
     'Gain a solid grasp of human slavery, its various forms including socialism, prohibition and legal tender slavery and how Bitcoin may bring about the end of it.', // Body
-    new Link('Read', 'https://github.com/JWWeatherman/bitcoin_security_threat_model') // Bu#tton
+    new Link('Read', 'https://github.com/JWWeatherman/human_threat_model/blob/master/README.md') // Bu#tton
   )
   // ADD ACTUAL RESOURCES HERE
 ]
