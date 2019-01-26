@@ -56,6 +56,11 @@ const resources = [
     new Link('Watch', 'https://www.youtube.com/playlist?list=PLxxj-sCQ0oJJs9BmBJ5rY-n2JE9dOfGnt') // Button
   ),
   new Resource(
+    '1 hours - The Many Traditions of Non-Government Money', // Header
+    'Learn that the history of money does not support the idea that it must be issued by governments.', // Body
+    new Link('Read', 'http://unenumerated.blogspot.com/2018/03/the-many-traditions-of-non-governmental.html') // Bu#tton
+  ),
+  new Resource(
     '2 hours - Bitcoin Threat Model', // Header
     'Look at bitcoin through the eyes of an attacker to gain a greater understanding of the liklihood of Bitcoins success in becoming global electronic cash', // Body
     new Link('Read', 'https://github.com/JWWeatherman/bitcoin_security_threat_model') // Bu#tton
