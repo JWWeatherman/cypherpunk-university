@@ -56,9 +56,9 @@ const resources = [
     new Link('Watch', 'https://www.youtube.com/playlist?list=PLxxj-sCQ0oJJs9BmBJ5rY-n2JE9dOfGnt') // Button
   ),
   new Resource(
-    '2 hour - Bitcoin Mechanics', // Header
+    '30 minutes - Bitcoin Under the Hood', // Header
     'A high-level overview of the bitcoin software and network that is appropriate for someone that is not a software developer.', // Body
-    new Link('Watch', 'http://unenumerated.blogspot.com/2018/03/the-many-traditions-of-non-governmental.html') // Bu#tton
+    new Link('Watch', 'https://www.youtube.com/watch?v=Lx9zgZCMqXE&feature=youtu.be') // Bu#tton
   ),
   new Resource(
     '1 hour - Shelling Out: The Origins of Money', // Header
