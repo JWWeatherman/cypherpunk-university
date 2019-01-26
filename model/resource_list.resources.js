@@ -57,7 +57,12 @@ const resources = [
   ),
   new Resource(
     '2 hours - Bitcoin Threat Model', // Header
-    'The Bitcoin threat model is a systematic analysis By taking the perspective of an attacker Bitcoin you can gain a greater understanding of the design decisions and liklihood of Bitcoins success in becoming global electronic cash', // Body
+    'A systematic analysis By taking the perspective of an attacker Bitcoin you can gain a greater understanding of the design decisions and liklihood of Bitcoins success in becoming global electronic cash', // Body
+    new Link('Read', 'https://github.com/JWWeatherman/bitcoin_security_threat_model') // Bu#tton
+  ),
+  new Resource(
+    '2 hours - Human Threat Model', // Header
+    'Gain a solid grasp of human slavery, its various forms including socialism, and legal tender slavery and how Bitcoin may bring about the end of it.', // Body
     new Link('Read', 'https://github.com/JWWeatherman/bitcoin_security_threat_model') // Bu#tton
   )
   // ADD ACTUAL RESOURCES HERE
