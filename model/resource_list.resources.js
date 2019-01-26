@@ -79,6 +79,21 @@ const resources = [
     '2 hours - Human Threat Model', // Header
     'Gain a solid grasp of human slavery, its various forms including socialism, prohibition and legal tender slavery and how Bitcoin may bring about the end of it.', // Body
     new Link('Read', 'https://github.com/JWWeatherman/human_threat_model/blob/master/README.md') // Bu#tton
+  ),
+  new Resource(
+    '15 minutes - Lightning Network Overview', // Header
+    'Learn how bitcoin can scale to over a million transactions per second using cleverly delayed bitcoin transactions', // Body
+    new Link('Read', 'https://www.youtube.com/watch?v=3PcR4HWJnkY&feature=youtu.be') // Bu#tton
+  ),
+  new Resource(
+    '1 hour - Simplicity Smart Contracts', // Header
+    'Learn how bitcoin will securely support complex smart contracts where other blockchains have failed.', // Body
+    new Link('Read', 'https://www.youtube.com/watch?v=3PcR4HWJnkY&feature=youtu.be') // Bu#tton
+  ),
+  new Resource(
+    '30 minutes - Liquid Sidechain', // Header
+    'Learn how sidechains allow bitcoin to enable new features faster and safer.', // Body
+    new Link('Read', 'https://www.youtube.com/watch?v=GwnFfp5xIag&list=PLseHpvCI1BjA6Ymrks1vxPj-JCwQRoM0T') // Bu#tton
   )
   // ADD ACTUAL RESOURCES HERE
 ]
