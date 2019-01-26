@@ -56,6 +56,11 @@ const resources = [
     new Link('Watch', 'https://www.youtube.com/playlist?list=PLxxj-sCQ0oJJs9BmBJ5rY-n2JE9dOfGnt') // Button
   ),
   new Resource(
+    '2 hour - Bitcoin Mechanics', // Header
+    'A highlevel overview of the bitcoin software and network.', // Body
+    new Link('Read', 'http://unenumerated.blogspot.com/2018/03/the-many-traditions-of-non-governmental.html') // Bu#tton
+  ),
+  new Resource(
     '1 hour - Shelling Out: The Origins of Money', // Header
     'The precursors of money, along with language, enabled early modern humans to solve problems of cooperation that other animals cannot – including problems of reciprocal altruism, kin altruism, and the mitigation of aggression. These precursors shared with non-fiat currencies very specific characteristics – they were not merely symbolic or decorative objects.', // Body
     new Link('Read', 'http://unenumerated.blogspot.com/2018/03/the-many-traditions-of-non-governmental.html') // Bu#tton
