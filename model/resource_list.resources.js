@@ -57,7 +57,7 @@ const resources = [
   ),
   new Resource(
     '2 hours - Bitcoin Threat Model', // Header
-    'A systematic analysis By taking the perspective of an attacker Bitcoin you can gain a greater understanding of the design decisions and liklihood of Bitcoins success in becoming global electronic cash', // Body
+    'Look at bitcoin through the eyes of an attacker to gain a greater understanding of the liklihood of Bitcoins success in becoming global electronic cash', // Body
     new Link('Read', 'https://github.com/JWWeatherman/bitcoin_security_threat_model') // Bu#tton
   ),
   new Resource(
