@@ -66,6 +66,11 @@ const resources = [
     new Link('Read', 'https://nakamotoinstitute.org/shelling-out/') // Bu#tton
   ),
   new Resource(
+    'Money, Blockchains, and Social Scalability', // Header
+    'Learn why the secret to Bitcoin’s success is that its prolific resource consumption and poor computational scalability is buying something even more valuable: social scalability.', // Body
+    new Link('Read', 'http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html') // Bu#tton
+  ),
+  new Resource(
     '2 hours - Bitcoin Threat Model', // Header
     'Look at bitcoin through the eyes of an attacker to gain a greater understanding of the liklihood of Bitcoins success in becoming global electronic cash', // Body
     new Link('Read', 'https://github.com/JWWeatherman/bitcoin_security_threat_model') // Bu#tton
