@@ -71,29 +71,29 @@ const resources = [
     new Link('Read', 'http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html') // Bu#tton
   ),
   new Resource(
-    '2 hours - Bitcoin Threat Model', // Header
+    '1 hour - Bitcoin Threat Model', // Header
     'Look at bitcoin through the eyes of an attacker to gain a greater understanding of the liklihood of Bitcoins success in becoming global electronic cash', // Body
     new Link('Read', 'https://github.com/JWWeatherman/bitcoin_security_threat_model') // Bu#tton
   ),
   new Resource(
-    '2 hours - Human Threat Model', // Header
+    '1 hour - Human Threat Model', // Header
     'Gain a solid grasp of human slavery, its various forms including socialism, prohibition and legal tender slavery and how Bitcoin may bring about the end of it.', // Body
     new Link('Read', 'https://github.com/JWWeatherman/human_threat_model/blob/master/README.md') // Bu#tton
   ),
   new Resource(
     '15 minutes - Lightning Network Overview', // Header
     'Learn how bitcoin can scale to over a million transactions per second using cleverly delayed bitcoin transactions', // Body
-    new Link('Read', 'https://www.youtube.com/watch?v=3PcR4HWJnkY&feature=youtu.be') // Bu#tton
+    new Link('Watch', 'https://www.youtube.com/watch?v=3PcR4HWJnkY&feature=youtu.be') // Bu#tton
   ),
   new Resource(
     '1 hour - Simplicity Smart Contracts', // Header
     'Learn how bitcoin will securely support complex smart contracts where other blockchains have failed.', // Body
-    new Link('Read', 'https://www.youtube.com/watch?v=3PcR4HWJnkY&feature=youtu.be') // Bu#tton
+    new Link('Watch', 'https://www.youtube.com/watch?v=3PcR4HWJnkY&feature=youtu.be') // Bu#tton
   ),
   new Resource(
     '30 minutes - Liquid Sidechain', // Header
     'Learn how sidechains allow bitcoin to enable new features faster and safer.', // Body
-    new Link('Read', 'https://www.youtube.com/watch?v=GwnFfp5xIag&list=PLseHpvCI1BjA6Ymrks1vxPj-JCwQRoM0T') // Bu#tton
+    new Link('Watch', 'https://www.youtube.com/watch?v=GwnFfp5xIag&list=PLseHpvCI1BjA6Ymrks1vxPj-JCwQRoM0T') // Bu#tton
   )
   // ADD ACTUAL RESOURCES HERE
 ]
