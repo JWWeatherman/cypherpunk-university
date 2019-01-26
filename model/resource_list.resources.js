@@ -63,7 +63,10 @@ const resources = [
   new Resource(
     '1 hour - Shelling Out: The Origins of Money', // Header
     'This excellent paper written by Nick Szabo is widely regarded as one of the best resources to understand money and the role bitcoin hopes to play globally', // Body
-    new Link('Read', 'https://nakamotoinstitute.org/shelling-out/') // Bu#tton
+    new Link('Listen', 'https://cryptoconomy.life/2018/11/12/shelling-out-the-origins-of-money/'), // Bu#tton
+    [
+      new Link('Read', 'https://nakamotoinstitute.org/shelling-out/'),
+    ] // Links
   ),
   new Resource(
     '1 hour - Money, Blockchains, and Social Scalability', // Header
