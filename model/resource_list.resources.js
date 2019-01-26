@@ -75,7 +75,6 @@ const resources = [
     [
       new Link('Read', 'http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html'),
     ] // Links
-
   ),
   new Resource(
     '1 hour - Bitcoin Threat Model', // Header

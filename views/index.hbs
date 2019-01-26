@@ -1,5 +1,5 @@
-<div class="container-fluid">
-{{#each resources}}
+<div class="row" style="flex-direction: column;">
+  {{#each resources}}
     <div class="card">
       <div class="card-header text-center">
         <p class="panel-title ">
@@ -25,5 +25,15 @@
         </div>
       </div>
     </div>
-{{/each}}
+  {{/each}}
+  <nav id="footer" class="navbar fixed-bottom animated">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Donate</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Feedback</a>
+      </li>
+    </ul>
+  </nav>
 </div>
