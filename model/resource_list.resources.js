@@ -58,7 +58,7 @@ const resources = [
   new Resource(
     '2 hour - Bitcoin Mechanics', // Header
     'A high-level overview of the bitcoin software and network that is appropriate for someone that is not a software developer.', // Body
-    new Link('Read', 'http://unenumerated.blogspot.com/2018/03/the-many-traditions-of-non-governmental.html') // Bu#tton
+    new Link('Watch', 'http://unenumerated.blogspot.com/2018/03/the-many-traditions-of-non-governmental.html') // Bu#tton
   ),
   new Resource(
     '1 hour - Shelling Out: The Origins of Money', // Header
