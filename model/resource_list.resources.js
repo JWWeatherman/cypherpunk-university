@@ -78,7 +78,7 @@ const resources = [
   ),
   new Resource(
     '1 hour - Bitcoin Threat Model', // Header
-    'Look at bitcoin through the eyes of an attacker to gain a greater understanding of the liklihood of Bitcoins success in becoming global electronic cash', // Body
+    'Look at bitcoin through the eyes of an attacker to gain a greater understanding of the likelihood of Bitcoins success in becoming global electronic cash.', // Body
     new Link('Read', 'https://github.com/JWWeatherman/bitcoin_security_threat_model') // Bu#tton
   ),
   new Resource(
@@ -88,7 +88,7 @@ const resources = [
   ),
   new Resource(
     '15 minutes - Lightning Network Overview', // Header
-    'Learn how bitcoin can scale to over a million transactions per second using cleverly delayed bitcoin transactions', // Body
+    'Learn how bitcoin can scale to over a million transactions per second using cleverly delayed bitcoin transactions.', // Body
     new Link('Watch', 'https://www.youtube.com/watch?v=3PcR4HWJnkY&feature=youtu.be') // Bu#tton
   ),
   new Resource(
