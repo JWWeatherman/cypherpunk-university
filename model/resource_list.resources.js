@@ -79,7 +79,10 @@ const resources = [
   new Resource(
     '1 hour - Bitcoin Threat Model', // Header
     'Look at bitcoin through the eyes of an attacker to gain a greater understanding of the likelihood of Bitcoins success in becoming global electronic cash.', // Body
-    new Link('Read', 'https://github.com/JWWeatherman/bitcoin_security_threat_model') // Bu#tton
+    new Link('Listen', 'https://www.listennotes.com/podcasts/the-cryptoconomy/cryptoquikread_208-the-0l9pmEF7Qwy/'), // Bu#tton
+    [
+      new Link('Read', 'https://github.com/JWWeatherman/bitcoin_security_threat_model'),
+    ] // Links
   ),
   new Resource(
     '1 hour - Human Threat Model', // Header
