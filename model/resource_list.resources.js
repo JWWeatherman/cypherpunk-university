@@ -43,7 +43,7 @@ class Resource {
  */
 const resources = [
   new Resource(
-    '10 minutes - Bitcoin Standard Prologue', // Header
+    '10 Minutes. The Bitcoin Standard Prologue.', // Header
     'Get a sneak peak of the best book ever published on what Bitcoin is, what it’s going to do in the world, and why it matters to you. This is the prologue to the economist Saifedean Ammous’ The Bitcoin Standard.', // Body
     new Link('LISTEN', 'https://bitcoinstandardintro.podbean.com/e/prologue-of-the-bitcoin-standard/'), // Button
     [
