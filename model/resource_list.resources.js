@@ -44,7 +44,7 @@ class Resource {
 const resources = [
   new Resource(
     '10 minutes - Bitcoin Standard Prologue', // Header
-    'Get an excellent introduction and overview of Bitcoin from Saifedean Ammous the author of indispensable book The Bitcoin Standard.', // Body
+    'Get a sneak peak of the best book ever published on what Bitcoin is, what it’s going to do in the world, and why it matters to you. This is the prologue to the economist Saifedean Ammous’ The Bitcoin Standard.', // Body
     new Link('LISTEN', 'https://bitcoinstandardintro.podbean.com/e/prologue-of-the-bitcoin-standard/'), // Button
     [
       new Link('Read', 'https://docs.google.com/document/d/1AOUazAHeG_49s53eJifosdY9cFVvA7ZZOhICwebAgws/edit?usp=sharing'),
