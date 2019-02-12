@@ -69,42 +69,42 @@ const resources = [
     ] // Links
   ),
   new Resource(
-    '1 hour - Money, Blockchains, and Social Scalability', // Header
-    'Learn why the secret to Bitcoin’s success is that its prolific resource consumption and poor computational scalability is buying something even more valuable: social scalability.', // Body
+    '1 Hour. Money, Blockchains, and Social Scalability.', // Header
+    'Discover why the hidden secret to Bitcoin’s success is its prolific resource consumption and poor computational scalability and how those two features are buying something even more valuable: social scalability. This is something few understand.', // Body
     new Link('Listen', 'https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_066---Money--Blockchains--and-Social-Scalability-e2ndsj'), // Bu#tton
     [
       new Link('Read', 'http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html'),
     ] // Links
   ),
   new Resource(
-    '1 hour - Bitcoin Threat Model', // Header
-    'Look at bitcoin through the eyes of an attacker to gain a greater understanding of the likelihood of Bitcoins success in becoming global electronic cash.', // Body
+    '1 Hour. Bitcoin Threat Model.', // Header
+    'Look at Bitcoin through the eyes of an attacker to gain a greater understanding of the likelihood of Bitcoin’s success in becoming global, electronic cash.', // Body
     new Link('Listen', 'https://www.listennotes.com/podcasts/the-cryptoconomy/cryptoquikread_208-the-0l9pmEF7Qwy/'), // Bu#tton
     [
       new Link('Read', 'https://github.com/JWWeatherman/bitcoin_security_threat_model'),
     ] // Links
   ),
   new Resource(
-    '1 hour - Human Threat Model', // Header
-    'Gain a solid grasp of human slavery, its various forms including socialism, prohibition and legal tender slavery and how Bitcoin may bring about the end of it.', // Body
+    '1 Hour. Human Threat Model.', // Header
+    'The Human Threat Model will give you a solid grasp of the current forms of human slavery that are still in existence. It reveals how socialism, prohibition, and legal tender slavery are actually subtle and devious forms of slavery. It also covers why Bitcoin is humankind’s best shot to bring about the end of slavery in ALL of its forms (once and for all).', // Body
     new Link('Listen', 'https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_210---Human-Threat-Model-Part-1-e352ah'), // Bu#tton
     [
       new Link('Read', 'https://github.com/JWWeatherman/human_threat_model/blob/master/README.md'),
     ] // Links
   ),
   new Resource(
-    '15 minutes - Lightning Network Overview', // Header
-    'Learn how bitcoin can scale to over a million transactions per second using cleverly delayed bitcoin transactions.', // Body
+    '15 Minutes. Lightning Network Overview.', // Header
+    'Learn how Bitcoin can scale to over a million transactions per second using cleverly delayed transactions.', // Body
     new Link('Watch', 'https://www.youtube.com/watch?v=3PcR4HWJnkY&feature=youtu.be') // Bu#tton
   ),
   new Resource(
-    '1 hour - Simplicity Smart Contracts', // Header
-    'Learn how bitcoin will securely support complex smart contracts where other blockchains have failed.', // Body
+    '1 Hour. Simplicity Smart Contracts.', // Header
+    'Learn how Bitcoin will securely support complex smart contracts where other blockchains have failed.', // Body
     new Link('Watch', 'https://www.youtube.com/watch?v=VOeUq3oR2fk&t=436s') // Bu#tton
   ),
   new Resource(
-    '30 minutes - Liquid Sidechain', // Header
-    'Learn how sidechains allow bitcoin to enable new features faster and safer.', // Body
+    '30 Minutes. Liquid Sidechain.', // Header
+    'Learn how sidechains allow Bitcoin to enable new features quickly and safely.', // Body
     new Link('Watch', 'https://www.youtube.com/watch?v=GwnFfp5xIag&list=PLseHpvCI1BjA6Ymrks1vxPj-JCwQRoM0T') // Bu#tton
   )
   // ADD ACTUAL RESOURCES HERE
