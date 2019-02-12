@@ -79,7 +79,7 @@ const resources = [
   new Resource(
     '1 Hour. Bitcoin Threat Model.', // Header
     'Look at Bitcoin through the eyes of an attacker to gain a greater understanding of the likelihood of Bitcoin’s success in becoming global, electronic cash.', // Body
-    new Link('Listen', 'https://www.listennotes.com/podcasts/the-cryptoconomy/cryptoquikread_208-the-0l9pmEF7Qwy/'), // Bu#tton
+    new Link('Listen', 'https://anchor.fm/thecryptoconomy/episodes/The-Bitcoin-Threat-Model-e35f5r'), // Bu#tton
     [
       new Link('Read', 'https://github.com/JWWeatherman/bitcoin_security_threat_model'),
     ] // Links
@@ -87,7 +87,7 @@ const resources = [
   new Resource(
     '1 Hour. Human Threat Model.', // Header
     'The Human Threat Model will give you a solid grasp of the current forms of human slavery that are still in existence. It reveals how socialism, prohibition, and legal tender slavery are actually subtle and devious forms of slavery. It also covers why Bitcoin is humankind’s best shot to bring about the end of slavery in ALL of its forms (once and for all).', // Body
-    new Link('Listen', 'https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_210---Human-Threat-Model-Part-1-e352ah'), // Bu#tton
+    new Link('Listen', 'https://anchor.fm/thecryptoconomy/episodes/The-Human-Threat-Model-e35f6q'), // Bu#tton
     [
       new Link('Read', 'https://github.com/JWWeatherman/human_threat_model/blob/master/README.md'),
     ] // Links
