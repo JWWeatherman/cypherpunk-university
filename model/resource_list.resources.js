@@ -52,7 +52,7 @@ const resources = [
   ),
   new Resource(
     '3 Hours. Bitcoin and Economics.', // Header
-    'A six-hour lecture series by JW Weatherman on the economics of wealth creation, investment, speculation, and Bitcoin Maximalism.', // Body
+    'A six-part lecture series by JW Weatherman on the economics of wealth creation, investment, speculation, and Bitcoin Maximalism.', // Body
     new Link('Watch', 'https://www.youtube.com/playlist?list=PLxxj-sCQ0oJJs9BmBJ5rY-n2JE9dOfGnt') // Button
   ),
   new Resource(
