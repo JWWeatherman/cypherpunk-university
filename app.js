@@ -1,5 +1,6 @@
 const createError = require('http-errors')
 const express = require('express')
+var hbs = require('hbs')
 const path = require('path')
 const cookieParser = require('cookie-parser')
 const logger = require('morgan')
@@ -8,6 +9,14 @@ const sassMiddleware = require('node-sass-middleware')
 const indexRouter = require('./routes/index.route')
 
 const app = express()
+
+hbs.registerHelper("href", function (title) {
+
+  const [_, t] = title.split('.')
+ return t.trim()
+     .replace(new RegExp(/\./, 'g'), '')
+     .replace(new RegExp(' ', 'g'), '-')
+})
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'))
