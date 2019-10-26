@@ -1,2 +1,2 @@
 # Cypherpunk University 
-To start app, inside cypherpunk university directory, pm2 start app.js
+To start app, pm2 start ~/apps/cypherpunk-university/bin/www
