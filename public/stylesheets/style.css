@@ -61,7 +61,7 @@ body {
 .card-header p {
   margin: 0; }
 
-p.panel-title {
+a.panel-title {
   color: #f8f8f8;
   font-family: proxima-nova-bold, open sans, sans-serif, system; }
 
